@@ -1,1 +1,29 @@
 /***STYLING OF THE SETUP PORTFOLIO****/
+
+.top-nav{
+  background-image: url(pngfiles/Rectangle\ 44.png);
+  display: flex;
+  justify-content: space-around;
+  width: 98.5vw;
+  height: 60px;
+  padding-top: 20px;
+  position: absolute;
+}
+.nav-items{
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-end; 
+}
+.nav{
+  width: 5rem;
+}
+.logo{
+  width: 10rem;
+ 
+}
+/***************************************/
+.headline-1{
+  background: #1C1A19;
+  
+
+}
