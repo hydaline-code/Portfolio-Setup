@@ -1,0 +1,135 @@
+@import url('https://fonts.googleapis.com/css2?family=Crete+Round&family=Inter&family=Space+Mono&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Crete+Round&family=Inter&family=Roboto:wght@700&family=Space+Mono&display=swap'); 
+*{
+  box-sizing: border-box;
+}
+.mobile{
+  border: solid yellow;
+  width: 375px;
+  height: 694px;
+  padding: 3px;
+  
+  
+}
+.app-bar{
+ border: solid red;
+ padding: 5px;
+ width: 365px;
+ height: 92px;
+ background: gray;
+ 
+}
+.app-bar1{
+ width: 351px;
+ height: 40px;
+ display: flex;
+ flex-direction: row;
+ justify-content: space-between;
+ padding-top: 3px;
+ padding-left: 21px;
+ padding-right: 10px;
+ 
+}
+.status-bar1{
+  width: 50px;
+  height: 14px;
+  padding-left: 10px;
+  padding-right: 10px;
+}
+.time{
+  font-size: 40px;
+  
+}
+.status-bar2{
+  width: 70px;
+  height: 21px;
+  display: flex;
+  flex-direction: row;
+  gap: 5px;
+  justify-content: space-around;
+  padding: 1px;
+ 
+  
+}
+.status-group1{
+  width: 15px;
+  height: 9px;
+ 
+}
+.status-group2{
+  width: 11px;
+  height: 9px;
+  
+}
+.status-group3{
+  width: 20px;
+  height: 9px;
+ 
+
+}
+.app-bar2{
+  width: 351px;
+  height: 38px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  padding-top: 7px;
+  padding-left: 20px;
+  padding-right: 27px;
+}
+.status-bar3{
+  width: 72px;
+  height: 20px;
+  font-size: 17px;
+  font-family: 'Roboto';
+}
+.status-bar4{
+  
+  width: 22px;
+  height: 13px;
+}
+.headline--{
+  border: solid blue;
+  width: 365px;
+  height: 590px;
+  padding-left: 20px;
+  padding-right: 20px;
+  padding-top: 100px;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  position: relative;
+
+}
+.Groupimg{
+  position: absolute;
+  top: 50%;
+  right: -6%;
+  bottom: 12%;
+  left: 63%;
+}
+.headline--1{
+  width: 323px;
+  height: 120px;
+  background: yellowgreen;
+  
+}
+.headline--2{
+  width: 323px;
+  height: 24px;
+  background: wheat;
+}
+.headline--3{
+  width: 323px;
+  height: 100px;
+  background: rebeccapurple;
+}
+.headline--4{
+  width: 200px;
+  height: 35px;
+  background: forestgreen;
+  margin-left: 14px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+}
