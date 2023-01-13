@@ -1,10 +1,10 @@
-@import url('https://fonts.googleapis.com/css2?family=Crete+Round&family=Inter&family=Space+Mono&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Crete+Round&family=Inter&family=Roboto:wght@700&family=Space+Mono&display=swap'); 
+
+@import url('https://fonts.googleapis.com/css2?family=Crete+Round&family=Inter&family=Poppins&family=Roboto:wght@700&family=Space+Mono&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Crete+Round&family=Inter&family=Roboto:wght@700&family=Space+Mono&display=swap');
 *{
   box-sizing: border-box;
 }
 .mobile{
-  border: solid yellow;
   width: 375px;
   height: 694px;
   padding: 3px;
@@ -12,11 +12,11 @@
   
 }
 .app-bar{
- border: solid red;
  padding: 5px;
  width: 365px;
  height: 92px;
- background: gray;
+ background: #3C3A39;
+ color: white;
  
 }
 .app-bar1{
@@ -89,7 +89,7 @@
   height: 13px;
 }
 .headline--{
-  border: solid blue;
+  background: #1C1A19;
   width: 365px;
   height: 590px;
   padding-left: 20px;
@@ -111,25 +111,42 @@
 .headline--1{
   width: 323px;
   height: 120px;
-  background: yellowgreen;
+  font-family: 'Crete Round';
+  color: #FF6B00;
+  letter-spacing: 0.37px;
+  line-height: 64px;
+  font-size: 56px;
   
 }
 .headline--2{
   width: 323px;
   height: 24px;
-  background: wheat;
+  font-family: 'Roboto';
+  font-size: 24px;
+  line-height: 32px;
+  font-style: normal;
 }
 .headline--3{
   width: 323px;
-  height: 100px;
-  background: rebeccapurple;
+  height: 115px;
+  font-size: 15px;
+  font-family: 'Poppins';
+  font-style: normal;
+  line-height: 24px;
+  color: #FFFFFF;
+
 }
 .headline--4{
   width: 200px;
-  height: 35px;
-  background: forestgreen;
+  height: 20px; 
   margin-left: 14px;
   display: flex;
   flex-direction: row;
   justify-content: space-evenly;
+  background: #1C1A19;
+}
+
+.github,.twitter,.linkin,.medium1,.angela{ 
+  color: #DBD8D7;
+  
 }
