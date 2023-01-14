@@ -196,7 +196,7 @@ hr {
   padding: 12px;
 }
 .title1 {
-  border: solid;
+
   font-size: 28px;
   font-family: "Crete Round", serif;
   font-weight: 400;
@@ -205,7 +205,7 @@ hr {
   color: #091e42;
 }
 .para {
-  border: solid;
+  
   font-size: 16px;
   font-family: "Inter", sans-serif;
   font-weight: 400;
@@ -342,5 +342,100 @@ button {
   position: absolute;
   bottom: 0;
 }
+/*******************************************************************************/
+  .aboutme {
+    background: #1C1A19;
+    color: #fff;
+    position: relative; 
+  }
 
+.aboutme-- {
+  display: flex;
+  flex-direction: column;
+   gap: 5rem;  
+  
+   
+}
+.aboutme--h {
+  width: 325px;
+  height: 79px;
+  line-height: 88px;
+  align-self: center;
+  
+}
+.aboutme--h > h1{
+  font-size: 72px;
+  font-family: "Crete Round", serif;
+  font-weight: 400;
+  color: #ff6b00;
+  font-style: normal;
+}
+.aboutme--1 {
+  width: 325px;
+  height: 148px;
+  line-height: 24px;
+  align-self: center;
+  
+}
+.aboutme--1 > p {
+  font-family: "Inter", sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  color: #F4F5F7;
+}
+.aboutmebtn{
+  width: 155px;
+  height: 40px;
+  gap: 5px;
+  margin-left: 1rem;
+  margin-bottom: 10px;
+  position: relative;
+
+}
+ .aboutmeline {
+  
+  width: 300px;
+  margin-top: 395px;
+ }
+  .aboutmeline > hr{
+  border: 1px solid #fff;
+  margin-left: 1rem;
+ }
+
+ .toplang ,.framework, .skills{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 15px;
+  font-family: "Inter", sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 43px;
+ }
  
+ h3{
+  text-align: center;
+  font-family: "Inter", sans-serif;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 30px;
+  line-height: 30px;
+ }
+ .illust {
+  position: absolute;
+  top: 30%;
+  right: -7%;
+  bottom: 10%;
+  left: 56.2%;
+  size: 90px;
+  
+  
+ }
+ /***********************************************************************************/
+ .footerr{
+  display: flex;
+  flex-direction: row;
+  gap: 12px;
+ }
