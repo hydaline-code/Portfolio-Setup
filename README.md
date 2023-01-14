@@ -1,9 +1,3 @@
-<a name="readme-top"></a>
-
-
-
-<!-- TABLE OF CONTENTS -->
-
 # 📗 Table of Contents
 
 - [📖 About the Project](#about-project)
@@ -26,13 +20,13 @@
 - [❓ FAQ (OPTIONAL)](#faq)
 - [📝 License](#license)
 
-<!-- PROJECT DESCRIPTION -->
+
 
 # 📖 [Portfolio-Setup-project] <a name="about-project"></a>
 
 > A Portfolio is very essential as a developer it is what helps you to be tracked by companies and hence where you can present your work and your projects.Hence at Microverse this our first enhancement to work and setup a proper portfolio website.
 
-**[Portfolio-Setup]** is a...
+
 
 ## 🛠 Built With <a name="HTML & CSS"></a>
 
@@ -43,43 +37,47 @@
 <details>
   <summary>Client</summary>
   <ul>
-    <li>Linter</li>
+    <li>HTML & CSS</li>
   </ul>
 </details>
 
-<!-- Features -->
+
 
 ### Key Features <a name="key-features"></a>
- Figma template has been provide.The implementation is following features is done based on the  the Figma template's
- guide.   
+
+  <summary>Client</summary>
+  <ul>
+    <li>HTML & CSS</li>
+  </ul>
+
+Figma template has been provide.The implementation is following features is done based on the the Figma template's
+guide.
 
 - **[Toolbar]**
 
--  **[Headline]**
+- **[Headline]**
 
-<p align="right">(<a href="#readme-top">back to top</a>)</p>
-
-
-<!-- GETTING STARTED -->
+<p align ="right">(<a href="#readme-top">back to top</a>)</p>
 
 ## 💻 Getting Started <a name="getting-started"></a>
 
 > The project repository is public so anyone can just from it from my Github account.
-Then after clone it into your local machine
+> Then after clone it into your local machine
 
 ### Prerequisites
 
 In order to run this project you need:
 -A computer
--A github account 
+-A github account
 -A working browser installed
 
 ### Setup
+
 Clone this repository to your desired folder:
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
-<!-- AUTHORS -->
+
 
 ## 👥 Author <a name="authors"></a>
 
@@ -91,7 +89,7 @@ Clone this repository to your desired folder:
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
-<!-- FUTURE FEATURES -->
+
 
 ## 🔭 Future Features <a name="future-features"></a>
 
@@ -101,18 +99,14 @@ Clone this repository to your desired folder:
 - **[Project-section]**
 - **[footers]**
 
-<p align="right">(<a href="#readme-top">back to top</a>)</p>
+<p align ="right">(<a href="#readme-top">back to top</a>)</p>
 
-<!-- SUPPORT -->
+
 ## ⭐️ Show your support <a name="support"></a>
 
-> Let's Collaborate and give a star
-      If you like this project...
+> Let's Collaborate and give a star if you like this project and build a bigger community.
 
-<p align="right">(<a href="#readme-top">back to top</a>)</p>
-
-
-<!-- LICENSE -->
+<p align ="right">(<a href="#readme-top">back to top</a>)</p>
 
 ## 📝 License <a name="license"></a>
 
@@ -120,9 +114,4 @@ This project is [MIT](./LICENSE) licensed.
 
 _NOTE: we recommend using the [MIT license](https://choosealicense.com/licenses/mit/) - you can set it up quickly by [using templates available on GitHub](https://docs.github.com/en/communities/setting-up-your-project-for-healthy-contributions/adding-a-license-to-a-repository). You can also use [any other license](https://choosealicense.com/licenses/) if you wish._
 
-<p align="right">(<a href="#readme-top">back to top</a>)</p>
-
-
-
-
- 
+<p align ="right">(<a href="#readme-top">back to top</a>)</p>
