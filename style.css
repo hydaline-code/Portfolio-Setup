@@ -1,6 +1,6 @@
 @import url("https://fonts.googleapis.com/css2?family=Crete+Round&family=Inter&family=Poppins&family=Roboto:wght@700&family=Space+Mono&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Crete+Round&family=Inter&family=Roboto:wght@700&family=Space+Mono&display=swap");
-@import url('https://fonts.googleapis.com/css2?family=Crete+Round&family=Inter:wght@400;500;700&family=Poppins&family=Roboto:wght@700&family=Space+Mono&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Crete+Round&family=Inter:wght@400;500;700&family=Poppins&family=Roboto:wght@700&family=Space+Mono&display=swap");
 
 * {
   box-sizing: border-box;
@@ -114,7 +114,7 @@ time {
   width: 323px;
   height: 85px;
   color: #ff6b00;
-  font-family: 'Crete Round', serif;
+  font-family: "Crete Round", serif;
   letter-spacing: 0.37px;
   line-height: 43px;
 }
@@ -130,7 +130,7 @@ time {
   line-height: 5px;
   font-style: normal;
   color: #fff;
-  font-family: 'Roboto', sans-serif;
+  font-family: "Roboto", sans-serif;
 }
 
 .heading2 {
@@ -165,17 +165,15 @@ li {
 .title {
   width: 315x;
   height: 83px;
-  color: #1C1A19; 
+  color: #1c1a19;
   line-height: 20px;
   border: solid;
-  
 }
 .title > h1 {
   font-size: 40px;
- 
- font-family: 'Crete Round', serif;
- font-weight: 400;
 
+  font-family: "Crete Round", serif;
+  font-weight: 400;
 }
 hr {
   width: 300px;
@@ -198,19 +196,18 @@ hr {
   padding: 12px;
 }
 .title1 {
-  border: solid; 
+  border: solid;
   font-size: 28px;
-  font-family: 'Crete Round', serif;
+  font-family: "Crete Round", serif;
   font-weight: 400;
   line-height: 42px;
   align-items: center;
   color: #091e42;
-  
 }
 .para {
   border: solid;
   font-size: 16px;
-  font-family: 'Inter', sans-serif;
+  font-family: "Inter", sans-serif;
   font-weight: 400;
   line-height: 22px;
   align-items: center;
@@ -225,37 +222,36 @@ hr {
   padding: 12px;
   padding-left: 30px;
   order: 3;
- 
 }
-.lang1,.lang2,.lang3,.lang4 {
-  border: 1.5px solid #8993A4;
+.lang1,
+.lang2,
+.lang3,
+.lang4 {
+  border: 1.5px solid #8993a4;
   text-align: center;
   padding-top: 8px;
-  font-family: 'Inter', sans-serif;
+  font-family: "Inter", sans-serif;
   font-weight: 500;
   font-size: 15px;
   background: #fff;
 }
-.lang1{
+.lang1 {
   width: 49px;
   height: 40px;
-  
-  
 }
-.lang2{
+.lang2 {
   width: 56px;
   height: 40px;
 }
-.lang3{
+.lang3 {
   width: 95px;
   height: 40px;
 }
-.lang4{
+.lang4 {
   width: 61px;
   height: 40px;
-  
 }
-button{
+button {
   padding-left: 12px;
   order: 3;
   text-align: center;
@@ -263,13 +259,88 @@ button{
   height: 48px;
   letter-spacing: 0.03em;
   align-items: center;
-  color: #FFFFFF;
-  font-family: 'Inter', sans-serif;
+  color: #ffffff;
+  font-family: "Inter", sans-serif;
   font-size: 15px;
   font-weight: 700;
   background: #ff6b00;
   border: none;
-  
+}
+/*******************************************************************/
+.project-1, .project-2, .project-3,.project-4 {
+  width: 325px;
+  height: 375px;
+  margin: 12px;
+  background-image: url(/pngfiles/Img\ Placeholder\ \(2\).png);
+  background: linear-gradient(rgba(38, 38, 38, 0) 0.75%);
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  gap: 24px;
+}
+.subtitl {
+  width: 290px;
+  height: 79px;
+  line-height: 44px;
+  padding: 13px;
+}
+.subtitl > h1 {
+  font-size: 32px;
+  font-family: "Crete Round", serif;
+  font-weight: 400;
+  color: #fff;
+  font-style: normal;
+}
+.sub2 {
+  width: 285px;
+  height: 85px;
+  padding-left: 13px;
+  padding-top: 5px;
+}
+.sub2 > h4 {
+  font-family: "Inter", sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 22px;
+  color: #fff;
+}
+.lang1-pro,
+.lang2-pro,
+.lang3-pro {
+  text-align: center;
+  padding-top: 8px;
+  font-family: "Inter", sans-serif;
+  font-weight: 500;
+  font-size: 15px;
+  background: rgba(255, 255, 255, 0.24);
+  color: #fff;
+}
+.lang1-pro {
+  width: 49px;
+  height: 40px;
+}
+.lang2-pro {
+  width: 56px;
+  height: 40px;
+}
+.lang3-pro {
+  width: 95px;
+  height: 40px;
+}
+.lang-pro{
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  padding: 12px 14px;
+  gap: 10px;
+}
+.click {
+  width:325px;
+  height:48px;
+  position: absolute;
+  bottom: 0;
 }
 
-
+ 
