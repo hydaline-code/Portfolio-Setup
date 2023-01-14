@@ -167,14 +167,13 @@ li {
   height: 83px;
   color: #1c1a19;
   line-height: 20px;
-  border: solid;
 }
 .title > h1 {
   font-size: 40px;
-
   font-family: "Crete Round", serif;
   font-weight: 400;
 }
+
 hr {
   width: 300px;
   height: 0px;
@@ -185,12 +184,10 @@ hr {
   height: 230px;
   padding: 12px;
   padding-top: 50px;
-  border: solid;
   margin-bottom: 30px;
 }
 .posts {
   margin-top: 50px;
-  border: solid;
   display: flex;
   flex-direction: column;
   padding: 12px;
@@ -374,9 +371,9 @@ button {
   width: 325px;
   height: 148px;
   line-height: 24px;
-  align-self: center;
-  
+  align-self: center; 
 }
+
 .aboutme--1 > p {
   font-family: "Inter", sans-serif;
   font-style: normal;
@@ -391,10 +388,9 @@ button {
   margin-left: 1rem;
   margin-bottom: 10px;
   position: relative;
-
 }
+
  .aboutmeline {
-  
   width: 300px;
   margin-top: 395px;
  }
@@ -437,5 +433,63 @@ button {
  .footerr{
   display: flex;
   flex-direction: row;
-  gap: 12px;
+  gap: 15px;
+  align-items: center;
+ }
+
+ .hobby{
+  width: 325px;
+  height: 216px;
+  font-family: "Inter", sans-serif;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 30px;
+  line-height: 44px;
+  text-align: center;
+  margin-left: 12px;
+  margin-right: 12px;
+  color: #172b4d;
+  margin-top: 20px;
+ }
+
+ .foot{
+  display: flex;
+  flex-direction: column;
+  width: 325px;
+  height: 300px;
+  gap: 5px;
+ }
+
+ input{
+  padding-top: 5px;
+  border: none;
+  text-align: center;
+  
+ }
+ textarea{
+  background: #FBF8F7;
+  width: 290px;
+  height: 90px;
+  margin-left: 12px;
+  margin-right: 12px;
+ }
+ .footerline1{
+  background: #dbd8d7;
+  width: 300px;
+  margin-left: 12px;
+  margin-right: 12px;
+ }
+ .footerline2{
+  background: #dbd8d7;
+  width: 300px;
+  margin-left: 12px;
+  margin-right: 12px;
+ }
+ .touch{
+  align-self: center;
+
+ }
+ 
+ .last{
+  position: relative;
  }
