@@ -4,18 +4,13 @@
 * {
   box-sizing: border-box;
 }
-section{
+
+section {
   width: 365px;
 }
 
 .app-bars {
   background: #3c3a39;
-}
-
-.app-bar1 {
-  display: flex;
-  flex-direction: row;
-  gap: 7rem;
 }
 
 .status-bar1 {
@@ -25,6 +20,7 @@ section{
   padding-right: 10px;
   color: #fff;
 }
+
 .status-bar2 {
   width: 70px;
   height: 21px;
@@ -48,7 +44,6 @@ section{
   padding-top: 6px;
   padding-left: 21px;
   padding-right: 10px;
-  
 }
 
 .status-group1 {
@@ -75,7 +70,6 @@ section{
   padding-top: 7px;
   padding-left: 30px;
   padding-right: 27px;
- 
 }
 
 .status-bar3 {
@@ -119,7 +113,7 @@ time {
   width: 323px;
   height: 85px;
   color: #ff6b00;
-  font-family: Crete Round;
+  font-family: 'Crete Round', serif;
   letter-spacing: 0.37px;
   line-height: 43px;
 }
@@ -135,7 +129,7 @@ time {
   line-height: 5px;
   font-style: normal;
   color: #fff;
-  font-family: Roboto;
+  font-family: 'Roboto', sans-serif;
 }
 
 .heading2 {
