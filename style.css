@@ -1,5 +1,6 @@
 @import url("https://fonts.googleapis.com/css2?family=Crete+Round&family=Inter&family=Poppins&family=Roboto:wght@700&family=Space+Mono&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Crete+Round&family=Inter&family=Roboto:wght@700&family=Space+Mono&display=swap");
+@import url('https://fonts.googleapis.com/css2?family=Crete+Round&family=Inter:wght@400;500;700&family=Poppins&family=Roboto:wght@700&family=Space+Mono&display=swap');
 
 * {
   box-sizing: border-box;
@@ -157,3 +158,118 @@ time {
 li {
   list-style: none;
 }
+/*****************part2********************/
+.Myworks {
+  margin-top: 24px;
+}
+.title {
+  width: 315x;
+  height: 83px;
+  color: #1C1A19; 
+  line-height: 20px;
+  border: solid;
+  
+}
+.title > h1 {
+  font-size: 40px;
+ 
+ font-family: 'Crete Round', serif;
+ font-weight: 400;
+
+}
+hr {
+  width: 300px;
+  height: 0px;
+  border: 1px solid #212121;
+}
+.logo-main {
+  width: 337px;
+  height: 230px;
+  padding: 12px;
+  padding-top: 50px;
+  border: solid;
+  margin-bottom: 30px;
+}
+.posts {
+  margin-top: 50px;
+  border: solid;
+  display: flex;
+  flex-direction: column;
+  padding: 12px;
+}
+.title1 {
+  border: solid; 
+  font-size: 28px;
+  font-family: 'Crete Round', serif;
+  font-weight: 400;
+  line-height: 42px;
+  align-items: center;
+  color: #091e42;
+  
+}
+.para {
+  border: solid;
+  font-size: 16px;
+  font-family: 'Inter', sans-serif;
+  font-weight: 400;
+  line-height: 22px;
+  align-items: center;
+  color: #091e42;
+  order: 1;
+}
+.lang {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  gap: 10px;
+  padding: 12px;
+  padding-left: 30px;
+  order: 3;
+ 
+}
+.lang1,.lang2,.lang3,.lang4 {
+  border: 1.5px solid #8993A4;
+  text-align: center;
+  padding-top: 8px;
+  font-family: 'Inter', sans-serif;
+  font-weight: 500;
+  font-size: 15px;
+  background: #fff;
+}
+.lang1{
+  width: 49px;
+  height: 40px;
+  
+  
+}
+.lang2{
+  width: 56px;
+  height: 40px;
+}
+.lang3{
+  width: 95px;
+  height: 40px;
+}
+.lang4{
+  width: 61px;
+  height: 40px;
+  
+}
+button{
+  padding-left: 12px;
+  order: 3;
+  text-align: center;
+  width: 127px;
+  height: 48px;
+  letter-spacing: 0.03em;
+  align-items: center;
+  color: #FFFFFF;
+  font-family: 'Inter', sans-serif;
+  font-size: 15px;
+  font-weight: 700;
+  background: #ff6b00;
+  border: none;
+  
+}
+
+
