@@ -53,9 +53,9 @@
 Figma template has been provide.The implementation is following features is done based on the the Figma template's
 guide.
 
-- **[Toolbar]**
+- **[Recent Works]**
 
-- **[Headline]**
+- **[About me]**
 
 <p align ="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -95,9 +95,9 @@ Clone this repository to your desired folder:
 
 > Describe 1 - 3 features you will add to the project.
 
-- **[Sections]**
-- **[Project-section]**
-- **[footers]**
+- **[Recent projects]**
+- **[About me ]**
+- **[Footers]**
 
 <p align ="right">(<a href="#readme-top">back to top</a>)</p>
 
