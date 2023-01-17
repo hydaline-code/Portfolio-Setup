@@ -173,7 +173,7 @@ li {
   line-height: 20px;
 }
 
-.title > h1 {
+.title > h2 {
   font-size: 40px;
   font-family: "Crete Round", serif;
   font-weight: 400;
@@ -188,9 +188,10 @@ hr {
 .logo-main {
   width: 337px;
   height: 230px;
-  padding: 12px;
   padding-top: 50px;
   margin-bottom: 30px;
+  margin-right: 19px;
+  margin-left: 4px;
 }
 
 .grid-container {
@@ -205,10 +206,11 @@ hr {
   display: flex;
   flex-direction: column;
   padding: 12px;
+  margin-right: 19px;
 }
 
-.title1 {
-  font-size: 28px;
+.title1 > h3 {
+  font-size: 35px;
   font-family: "Crete Round", serif;
   font-weight: 400;
   line-height: 42px;
@@ -270,7 +272,7 @@ hr {
 }
 
 button {
-  padding-left: 12px;
+  margin-left: 27px;
   order: 3;
   text-align: center;
   width: 127px;
@@ -284,6 +286,15 @@ button {
   background: #dbd8d7;
   border-style: hidden;
 }
+
+.click {
+  width: 325px;
+  height: 48px;
+  position: absolute;
+  bottom: 0;
+  margin-left: 0;
+}
+
 
 button:hover {
   background: #f7e2cb;
@@ -331,8 +342,8 @@ button:focus {
   padding: 13px;
 }
 
-.subtitl > h1 {
-  font-size: 32px;
+.subtitl > h2 {
+  font-size: 33px;
   font-family: "Crete Round", serif;
   font-weight: 400;
   color: #fff;
@@ -390,13 +401,6 @@ button:focus {
   gap: 10px;
 }
 
-.click {
-  width: 325px;
-  height: 48px;
-  position: absolute;
-  bottom: 0;
-}
-
 .aboutme {
   background: #1c1a19;
   color: #fff;
@@ -418,7 +422,7 @@ button:focus {
   align-self: center;
 }
 
-.aboutme--h > h1 {
+.aboutme--h > h2 {
   font-size: 72px;
   font-family: "Crete Round", serif;
   font-weight: 400;
