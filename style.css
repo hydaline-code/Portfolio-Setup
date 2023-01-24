@@ -518,8 +518,7 @@ form {
   margin-top: 3em;
 }
 
-input {
-  
+input {  
   border: none;
   text-align: left;
   margin: 0.5em;
@@ -538,19 +537,16 @@ textarea {
   width: 299px;
   margin-left: 12px;
   margin-right: 12px;
-
 }
 
 .footerline2 {
   width: 300px;
   margin-left: 12px;
-  margin-right: 12px;
-  
+  margin-right: 12px;  
 }
 
 .touch {
   margin-left: 7em;
-
 }
 
 .footerline {
@@ -558,8 +554,7 @@ textarea {
   left: 0;
   right: 0;
   width: 361.65px;
-  margin-top: 6em;
-  
+  margin-top: 6em;  
 }
 
 .contact-links {
@@ -570,9 +565,6 @@ textarea {
   margin-left: 4em;
   
 }
-/*.contact-feature {
-  border: solid;
-}*/
 
 .last-line{
   margin-bottom: 3em; 
@@ -585,6 +577,5 @@ textarea {
  left: 7em;
  background: #1c1a19;
  border: solid;
- border-radius: 3px;
- 
+ border-radius: 3px; 
 }
