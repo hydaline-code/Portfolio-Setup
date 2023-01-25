@@ -4,7 +4,6 @@
 
 * {
   box-sizing: border-box;
-  max-width: inherit;
 }
 
 section {
@@ -13,6 +12,7 @@ section {
 
 .app-bars {
   background: #3c3a39;
+  width: 365px;
 }
 
 .status-bar1 {
@@ -161,9 +161,9 @@ li {
 }
 
 .Myworks {
-  margin-top: 8rem;
-  margin-left: 12px;
-  margin-right: 12px;
+  margin-top: 4rem;
+  margin-left: 1rem;
+  margin-right: 1rem;
 }
 
 .title {
@@ -179,7 +179,7 @@ li {
   font-weight: 400;
 }
 
-hr {
+.line-tit {
   width: 300px;
   height: 0;
   border: 1px solid #212121;
@@ -189,24 +189,21 @@ hr {
   width: 337px;
   height: 230px;
   padding-top: 50px;
-  margin-bottom: 30px;
-  margin-right: 19px;
-  margin-left: 4px;
+  margin-bottom: 2.5rem;
+  padding-right: 2rem;
 }
 
 .grid-container {
   display: grid;
-  grid-column: span;
-  row-gap: 8rem;
+  row-gap: 0.5em;
   align-content: center;
 }
 
 .posts {
-  margin-top: 6rem;
+  margin-top: 2rem;
   display: flex;
   flex-direction: column;
-  padding: 12px;
-  margin-right: 19px;
+  padding-right: 1.5rem;
 }
 
 .title1 > h3 {
@@ -257,6 +254,7 @@ hr {
 }
 
 .lang2 {
+  float: right;
   width: 56px;
   height: 40px;
 }
@@ -278,7 +276,6 @@ button {
   width: 127px;
   height: 48px;
   letter-spacing: 0.03em;
-  align-items: center;
   color: #1c1a19;
   font-family: "Inter", sans-serif;
   font-size: 15px;
@@ -496,12 +493,8 @@ button:focus {
   size: 90px;
 }
 
-.footerr {
-  display: flex;
-  flex-direction: row;
-  gap: 17px;
-  align-items: center;
-  margin-left: 60px;
+.contact-feature {
+  position: relative;
 }
 
 .hobby {
@@ -519,54 +512,70 @@ button:focus {
   margin-top: 20px;
 }
 
-.foot {
-  display: flex;
-  flex-direction: column;
-  width: 325px;
-  height: 300px;
-  gap: 5px;
+form {
+  margin-top: 3em;
 }
 
 input {
-  padding-top: 5px;
   border: none;
-  text-align: center;
+  text-align: left;
+  margin: 0.5em;
+  width: 300px;
+  padding-left: 1em;
 }
 
 textarea {
   background: #fbf8f7;
   width: 290px;
   height: 90px;
-  margin-left: 12px;
-  margin-right: 12px;
+  margin: 1em;
+  padding: 1em;
 }
 
 .footerline1 {
-  background: #dbd8d7;
-  width: 300px;
+  width: 299px;
   margin-left: 12px;
   margin-right: 12px;
 }
 
 .footerline2 {
-  background: #dbd8d7;
   width: 300px;
   margin-left: 12px;
   margin-right: 12px;
 }
 
 .touch {
-  align-self: center;
-}
-
-.last {
-  position: relative;
+  margin-left: 7em;
+  color: #fff;
+  background: #ff6b00;
 }
 
 .footerline {
   height: 1px;
-  position: absolute;
   left: 0;
   right: 0;
-  width: 365px;
+  width: 361.65px;
+  margin-top: 6em;
+}
+
+.contact-links {
+  display: flex;
+  flex-direction: row;
+  gap: 17px;
+  align-items: center;
+  margin-left: 4em;
+}
+
+.last-line {
+  margin-bottom: 3em;
+}
+
+.last-line > hr {
+  width: 100px;
+  height: 5px;
+  position: absolute;
+  left: 7em;
+  background: #1c1a19;
+  border: solid;
+  border-radius: 3px;
 }
