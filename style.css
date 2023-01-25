@@ -529,6 +529,7 @@ textarea {
   width: 290px;
   height: 90px;
   margin: 1em;
+  padding: 1em;
 }
 
 .footerline1 {
@@ -545,6 +546,8 @@ textarea {
 
 .touch {
   margin-left: 7em;
+  color: #fff;
+  background: #ff6b00;
 }
 
 .footerline {
