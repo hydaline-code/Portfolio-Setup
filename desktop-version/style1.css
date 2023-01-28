@@ -47,7 +47,7 @@ body{
   position: absolute;
   right: 43%;
   top: 20%;
-}
+} 
 .whoiam {
   height: 870px;
   width: 1440px;
@@ -479,9 +479,8 @@ li {
   margin: 3em;
   width: 500px;
   position: relative;
-  
-  
 }
+
 input {
   border: none;
   text-align: left;
@@ -541,7 +540,6 @@ textarea {
 }
 
 .touch {
-  
   color: #fff;
   background: #ff6b00;
 }
