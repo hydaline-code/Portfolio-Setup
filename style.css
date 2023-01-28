@@ -159,7 +159,8 @@ time {
 li {
   list-style: none;
 }
-.menu , 
+
+.menu,
 .Myworks {
   margin-top: 4rem;
   margin-left: 1rem;
@@ -171,6 +172,7 @@ li {
   height: 83px;
   color: #1c1a19;
   line-height: 20px;
+  margin-bottom: 0.5em;
 }
 
 .title > h2 {
@@ -192,7 +194,6 @@ li {
   padding-top: 50px;
   margin-bottom: 2.5rem;
   padding-right: 2rem;
-  margin-bottom: 4em;
   position: relative;
   background-image: url(/desktop-version/pngfiles/Img\ Placeholder.png);
   background-repeat: no-repeat;
@@ -417,8 +418,14 @@ button:focus {
 }
 
 .illust {
-  background: url(/pngfiles/Group\ \(1\).png);
+  background: url(/pngfiles/Groupe.png);
   background-repeat: no-repeat;
+  position: absolute;
+  top: 20%;
+  right: -7%;
+  bottom: 10%;
+  left: 56.2%;
+  size: 90px;
 }
 
 .aboutme--h {
@@ -471,7 +478,7 @@ button:focus {
 }
 
 .toplang > ul,
-.framework >ul,
+.framework > ul,
 .skills > ul {
   display: flex;
   flex-direction: column;
@@ -490,15 +497,6 @@ button:focus {
 
 .langimg {
   margin-left: 6px;
-}
-
-.illust {
-  position: absolute;
-  top: 20%;
-  right: -7%;
-  bottom: 10%;
-  left: 56.2%;
-  size: 90px;
 }
 
 .contact-feature {
@@ -605,31 +603,31 @@ textarea {
   display: none;
 }
 
-@media  screen and (min-width:768px) {
-section {
-    width: 100%
-}
+@media screen and (min-width: 780px) {
+  section {
+    width: 100%;
+  }
 
-.app-bars {
-  background: #3c3a39;
-  width: 100%;
-}
+  .app-bars {
+    background: #3c3a39;
+    width: 100%;
+  }
 
-.logo {
-  display: flex;
-  flex-direction: row;
-  justify-content: space-between;
-  justify-content: baseline;
-} 
+  .logo {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    justify-content: baseline;
+  }
 
-.logo > h1 {
-  width: 72px;
-  font-size: 20px;
-  color: #fff;
-  padding-left: 1em;
-}
+  .logo > h1 {
+    width: 72px;
+    font-size: 20px;
+    color: #fff;
+    padding-left: 1em;
+  }
 
-.logo >.navbar > ul{
+  .navbar > ul {
     display: flex;
     flex-direction: row;
     gap: 4em;
@@ -638,7 +636,8 @@ section {
     color: #fff;
   }
 
-  .app-bar1,.app-bar2 {
+  .app-bar1,
+  .app-bar2 {
     display: none;
   }
 
@@ -651,7 +650,7 @@ section {
     display: none;
   }
 
-  .headline--1  {
+  .headline--1 {
     height: 160px;
     width: 566px;
     color: #ff6b00;
@@ -659,14 +658,11 @@ section {
     letter-spacing: 0.37px;
     line-height: 43px;
     margin-left: 15%;
-  }
-
-  .headline--1  {
     font-size: 30px;
     font-weight: 700;
   }
 
-  .headline--2 >  {
+  .headline--2 > {
     width: 323px;
     font-style: normal;
     color: #fff;
@@ -680,10 +676,10 @@ section {
     top: 10em;
   }
 
-  .headline--3  {
+  .headline--3 {
     height: 123px;
     width: 352px;
-    left: 0px;
+    left: 0;
     top: 424px;
     font-style: normal;
     line-height: 23px;
@@ -709,51 +705,59 @@ section {
 
   li {
     list-style: none;
-}
-
-.whoiam1 {
-  position: absolute;
-  left: 59.8%;
-  top: 6em;
-  bottom: 20%;
-  transform: matrix(0.96, 0.27, 0.27,  0, 0);
-  background-image: url(/pngfiles/Illustration-header.png);
-  background-repeat: no-repeat;
-  background-size: cover;
-  height: 500px;
-  width: 500px;
-}
-.Myworks{
-  position: relative;
   }
-.grid-container {
-  
-  margin-top: 5em;
-}
 
-.title > h2 {
-  width: 500px;
-  color: #1c1a19;
-	line-height: 20px;
-  font-size: 40px;
-  font-family: "Crete Round", serif;
-  font-weight: 400;
-  margin-top: 0;
-}
+  .whoiam1 {
+    position: absolute;
+    left: 59.8%;
+    top: 6em;
+    bottom: 20%;
+    transform: matrix(0.96, 0.27, 0.27, 0, 0);
+    background-image: url(/pngfiles/Illustration-header.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: inherit;
+    height: 500px;
+    width: 500px;
+  }
 
-.line-tit {
-  width: 600px;
-  position: absolute;
-  bottom: 17px;
-  left: 43%;
-  height: 0;
-  top: 6px;
-}
+  .app-main {
+    width: 100%;
+  }
+
+  .Myworks {
+    position: relative;
+  }
+
+  .grid-container {
+    margin-top: 5em;
+  }
+
+  .title > h2 {
+    width: 500px;
+    color: #1c1a19;
+    line-height: 20px;
+    font-size: 40px;
+    font-family: "Crete Round", serif;
+    font-weight: 400;
+    margin-top: 0;
+  }
+
+  .line-tit {
+    width: 600px;
+    position: absolute;
+    bottom: 17px;
+    left: 43%;
+    height: 0;
+    top: 6px;
+  }
+
   .grid-container2 {
     display: flex;
     flex-direction: row;
     justify-content: space-around;
   }
+
   .logo-main {
     width: 600px;
     height: 400px;
@@ -763,7 +767,6 @@ section {
     background-image: url(/desktop-version/pngfiles/Img\ Placeholder.png);
     background-repeat: no-repeat;
   }
-  
 
   .posts {
     width: 600px;
@@ -771,10 +774,8 @@ section {
     flex-direction: column;
     padding-bottom: 2em;
     margin-top: 0;
-    /*position: absolute;
-    left: 55%;
-    top: 1.6em;*/
   }
+
   .title1 > h3 {
     font-size: 35px;
     font-family: "Crete Round", serif;
@@ -785,10 +786,12 @@ section {
     margin-left: 1em;
     padding-top: 0;
   }
+
   .para {
     margin-left: 2em;
     width: 441px;
   }
+
   .para > p {
     font-size: 20px;
     font-family: "Inter", sans-serif;
@@ -800,49 +803,58 @@ section {
     height: 140px;
     width: 448px;
   }
+
   .project-2,
   .project-3,
   .project-4 {
     display: none;
-}
-.container {
+  }
+
+  .container {
     display: grid;
-    grid-template-columns: repeat(3,1fr);
-    grid-template-rows: repeat(2,1fr);
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: repeat(2, 1fr);
     gap: 1em;
     padding-left: 1em;
     position: relative;
-}
-.project1, 
-.project2,
-.project3,
-.project4,
-.project5,
-.project6 {
-  height: 435px;
-  width: 369px;
-}
+  }
 
+  .project1,
+  .project2,
+  .project3,
+  .project4,
+  .project5,
+  .project6 {
+    height: 435px;
+    width: 369px;
+  }
 
-.project1 {
-  background-image: url(/desktop-version/pngfiles/Mask\ Group.png);
-}
-.project2 , .project5 {
-  background-image: url(/desktop-version/pngfiles/Mask\ Group\ \(1\).png);
-}
-.project3 , .project6 {
-  background-image: url(/desktop-version/pngfiles/Mask\ Group\ \(2\).png);
-}
-.project4 {
-  background-image: url(/desktop-version/pngfiles/Img\ Placeholder\ \(1\).png);
-}
-.click {
+  .project1 {
+    background-image: url(/desktop-version/pngfiles/Mask\ Group.png);
+  }
+
+  .project2,
+  .project5 {
+    background-image: url(/desktop-version/pngfiles/Mask\ Groupp.png);
+  }
+
+  .project3,
+  .project6 {
+    background-image: url(/desktop-version/pngfiles/Mask\ Grou.png);
+  }
+
+  .project4 {
+    background-image: url(/desktop-version/pngfiles/Img\ Placeholde.png);
+  }
+
+  .click {
     width: 370px;
     height: 48px;
     position: absolute;
     bottom: 0;
     margin-left: 0;
   }
+
   .click1 {
     width: 370px;
     height: 48px;
@@ -858,8 +870,8 @@ section {
     padding: 12px 14px;
     gap: 10px;
     margin-top: 60%;
-    
   }
+
   .lang1-pro,
   .lang2-pro,
   .lang3-pro {
@@ -875,13 +887,11 @@ section {
   .lang1-pro {
     width: 56px;
     height: 40px;
-    
   }
 
   .lang3-pro {
     width: 95px;
     height: 40px;
-    
   }
 
   .lang2-pro {
@@ -910,7 +920,6 @@ section {
     height: 72px;
     padding-left: 13px;
     padding-top: 2.5em;
-    
   }
 
   .paragraph1 > p {
@@ -918,10 +927,11 @@ section {
     font-style: normal;
     font-weight: 400;
     font-size: 17px;
-  line-height: 24px;
+    line-height: 24px;
     color: #fff;
     padding-top: 2em;
   }
+
   button {
     margin-left: 27px;
     order: 3;
@@ -935,58 +945,64 @@ section {
     font-weight: 700;
     background: #dbd8d7;
     border-style: hidden;
-}
-button:hover {
-  background: #f7e2cb;
-  color: #ff6b00;
-}
+  }
 
-button:focus {
-  background: #ff6b00;
-  color: #fff;
-  border-style: hidden;
-}
+  button:hover {
+    background: #f7e2cb;
+    color: #ff6b00;
+  }
+
+  button:focus {
+    background: #ff6b00;
+    color: #fff;
+    border-style: hidden;
+  }
+
   .aboutme {
     background: #262626;
     width: 100%;
     height: 1195px;
     margin-top: 5em;
-    
   }
+
   .aboutme-- {
     display: flex;
     flex-direction: column;
     position: relative;
     margin-right: 60.5%;
   }
+
   .illust {
     display: none;
   }
+
   .aboutmebtn {
     width: 155px;
     height: 40px;
     margin-top: 0;
     margin-left: 5em;
   }
+
   .aboutmeline {
     width: 100%;
     margin-top: 10rem;
-    padding-left:1rem;
-    padding-right:2rem;
+    padding-left: 1rem;
+    padding-right: 2rem;
   }
- 
+
   .imgbakgrd {
     width: 600px;
     height: 400px;
     position: absolute;
     left: 51.9%;
-    transform: matrix(0.96, 0.27, 0.27,  0, 0);
+    transform: matrix(0.96, 0.27, 0.27, 0, 0);
     top: 17%;
     background-image: url(/desktop-version/pngfiles/illustration-about\ me@2x.png);
     background-repeat: no-repeat;
     background-size: contain;
   }
-  .aboutme--h > h2{
+
+  .aboutme--h > h2 {
     font-size: 72px;
     font-family: "Crete Round", serif;
     font-weight: 400;
@@ -996,7 +1012,8 @@ button:focus {
     line-height: 80px;
     padding-top: 0;
   }
-  .aboutme--1 > p{
+
+  .aboutme--1 > p {
     width: 556px;
     font-family: "Inter", sans-serif;
     font-style: normal;
@@ -1005,25 +1022,26 @@ button:focus {
     color: #f4f5f7;
     padding-bottom: 6em;
   }
+
   .container2 {
     display: flex;
     flex-direction: row;
     justify-content: space-around;
     margin-top: 0;
-    margin-bottom: 8em ;
+    margin-bottom: 8em;
     align-items: baseline;
   }
 
-  ul {
+  .container2 > ul {
     list-style: none;
     color: #fff;
     display: flex;
     flex-direction: column;
     font-weight: 400;
-   font-size: 22px;
-   line-height: 43px;
+    font-size: 22px;
+    line-height: 43px;
   }
-  
+
   .hobby {
     width: 500px;
     height: 126px;
@@ -1037,17 +1055,18 @@ button:focus {
     margin-right: 12px;
     color: #172b4d;
     margin-top: 20px;
-    
   }
 
   .Contact-f1 {
+    display: flex;
+    flex-direction: column;
     float: right;
     width: 500px;
     position: relative;
     background: #fff;
     margin: 3em;
-    
   }
+
   input {
     border: none;
     text-align: left;
@@ -1055,22 +1074,24 @@ button:focus {
     width: 200px;
     padding-left: 1em;
   }
-   .lastn {
+
+  .lastn {
     float: right;
     position: absolute;
     top: 1px;
     right: 5px;
-    
   }
+
   .firstn {
     float: left;
     top: 0;
     position: absolute;
   }
+
   .Contact-f {
     display: none;
   }
-  
+
   textarea {
     background: #fbf8f7;
     width: 290px;
@@ -1078,42 +1099,34 @@ button:focus {
     margin: 1em;
     padding: 1em;
   }
-  
+
   .footerline1 {
     width: 233px;
     margin: 0 12px 12px;
     left: 50%;
     position: absolute;
     top: 2em;
-}
+  }
 
-.footerline11 {
+  .footerline11 {
     width: 219px;
     margin-left: 10px;
     position: absolute;
     top: 1.5em;
     left: 1%;
     margin-right: 1em;
-    
   }
 
-.footerline2 {
+  .footerline2 {
     width: 481px;
   }
 
-  .Contact-f1 {
-    display: flex;
-    flex-direction: column;
-    position: relative;
-  }
-  
   .touch {
     position: absolute;
     color: #fff;
     background: #ff6b00;
     left: -6.35em;
     bottom: -2.5em;
-    
   }
 
   .footerline {
@@ -1123,7 +1136,7 @@ button:focus {
     width: 100%;
     margin-top: 6em;
   }
-  
+
   .contact-links > ul {
     display: flex;
     flex-direction: row;
@@ -1133,18 +1146,19 @@ button:focus {
     left: 40%;
     padding-top: 2em;
     padding-bottom: 0;
-    
   }
+
   .last-line {
     display: none;
   }
+
   footer {
     margin-top: 0;
     margin-bottom: 5px;
   }
-.contactdiv {
-  display: flex;
-  flex-direction: row;
-}
 
+  .contactdiv {
+    display: flex;
+    flex-direction: row;
+  }
 }
