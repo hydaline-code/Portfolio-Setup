@@ -3,7 +3,7 @@
 @import url("https://fonts.googleapis.com/css2?family=Crete+Round&family=Inter:wght@400;500;700&family=Poppins&family=Roboto:wght@700&family=Space+Mono&display=swap");
 
 body {
-  margin: 0; 
+  margin: 0;
 }
 
 .topnav {
@@ -24,8 +24,8 @@ body {
 }
 
 .time {
- margin-top: 0.9em;
- margin-left: 1.5em;
+  margin-top: 0.9em;
+  margin-left: 1.5em;
 }
 
 .subnav {
@@ -43,7 +43,7 @@ body {
 }
 
 .ham {
-  background-image:url(./desktop-version/pngfiles/menu.png);
+  background-image: url(./desktop-version/pngfiles/menu.png);
   width: 18px;
   height: 12px;
   background-repeat: no-repeat;
@@ -53,11 +53,11 @@ body {
 }
 
 .logoname {
-  font-family: 'Roboto';
+  font-family: "Roboto", serif;
   font-size: 18px;
   font-weight: 700;
   line-height: 24px;
-  letter-spacing: 0em;
+  letter-spacing: 0;
   text-align: center;
   padding-left: 1em;
 }
@@ -98,7 +98,6 @@ body {
   font-family: "Crete Round", serif;
   letter-spacing: 0.37px;
   line-height: 64px;
-  
 }
 
 .headline--2 > h4 {
@@ -108,7 +107,6 @@ body {
   color: #fff;
   font-family: "Roboto", sans-serif;
   font-size: 24px;
-  
 }
 
 .headline--3 > p {
@@ -118,22 +116,21 @@ body {
   font-style: normal;
   line-height: 24px;
   color: #fff;
-  font-family: 'Poppins';
-  
+  font-family: "Poppins", serif;
 }
 
-.headline--4{
+.headline--4 {
   margin-bottom: 7em;
   display: flex;
   flex-direction: row;
-  gap: 1em;  
+  gap: 1em;
 }
 
 li {
   list-style: none;
 }
 
-.Myworks{
+.Myworks {
   width: 375px;
   padding-top: 3em;
 }
@@ -176,7 +173,7 @@ li {
   padding-left: 0.5rem;
 }
 
-.title1{
+.title1 {
   width: 327px;
   height: 36px;
   margin-bottom: 2.5em;
@@ -196,7 +193,7 @@ li {
   height: 147px;
 }
 
-.para > p{
+.para > p {
   font-size: 16px;
   font-family: "Inter", sans-serif;
   font-weight: 400;
@@ -263,7 +260,6 @@ button {
   font-weight: 700;
   background: #ff6b00;
   border-style: hidden;
-  
 }
 
 .click {
@@ -296,7 +292,6 @@ button:focus {
   flex-direction: column;
   align-items: center;
   border: solid;
-  
 }
 
 .project-2,
@@ -311,8 +306,6 @@ button:focus {
   display: flex;
   flex-direction: column;
   justify-content: center;
- 
- 
 }
 
 .subtitl {
@@ -362,19 +355,16 @@ button:focus {
 .lang1-pro {
   width: 49px;
   height: 40px;
-  
 }
 
 .lang2-pro {
   width: 56px;
   height: 40px;
-  
 }
 
 .lang3-pro {
   width: 95px;
   height: 40px;
-  
 }
 
 .lang-pro {
@@ -383,7 +373,6 @@ button:focus {
   align-items: center;
   padding: 12px 14px;
   gap: 10px;
-  
 }
 
 .aboutme {
@@ -483,8 +472,7 @@ button:focus {
   margin-left: 6px;
 }
 
-.contact-feature {
-  position: relative;
+footer {
   width: 375px;
 }
 
@@ -555,7 +543,6 @@ textarea {
   gap: 1em;
   justify-content: baseline;
   margin-left: 2.5em;
-  
 }
 
 .last-line {
@@ -589,7 +576,6 @@ textarea {
 }
 
 @media screen and (min-width: 780px) {
-  
   .topnav {
     background: #3c3a39;
     width: 100%;
@@ -604,13 +590,12 @@ textarea {
 
   .logo > h1 {
     width: 72px;
-    font-size: 20px;
     color: #fff;
-    font-family: 'Inter';
+    font-family: "Inter", serif;
     font-size: 20px;
     font-weight: 700;
     line-height: 20px;
-    letter-spacing: 0em;
+    letter-spacing: 0;
     text-align: center;
     margin-top: 0.9em;
   }
@@ -622,13 +607,12 @@ textarea {
     margin-right: 6em;
     justify-items: baseline;
     color: #fff;
-    font-family: 'Inter';
+    font-family: "Inter", serif;
     font-size: 15px;
     font-weight: 600;
     line-height: 20px;
-    letter-spacing: 0em;
+    letter-spacing: 0;
     text-align: center;
-
   }
 
   .app-bar1,
@@ -637,16 +621,16 @@ textarea {
   }
 
   .app-main {
-    width:100%;
+    width: 100%;
     height: 870px;
     position: relative;
   }
+
   .headline-- {
     position: relative;
     display: flex;
     flex-direction: column;
     justify-content: flex-start;
-    
   }
 
   .Groupimg {
@@ -664,15 +648,13 @@ textarea {
     font-size: 72px;
     font-weight: 700;
   }
-  
+
   .headline--2 > h4 {
     text-align: center;
-    font-family: Inter;
     font-size: 32px;
     font-weight: 500;
     line-height: 44px;
-    letter-spacing: 0em;
-    width: 323px;
+    letter-spacing: 0;
     font-style: normal;
     color: #fff;
     font-family: "Roboto", sans-serif;
@@ -685,7 +667,7 @@ textarea {
   .headline--3 > p {
     width: 566px;
     height: 123px;
-    font-family: 'Inter';
+    font-family: "Inter", serif;
     font-style: normal;
     font-weight: 400;
     font-size: 20px;
@@ -694,7 +676,7 @@ textarea {
     margin-left: 9em;
   }
 
-  .headline--4  {
+  .headline--4 {
     position: absolute;
     top: 28%;
     display: flex;
@@ -719,18 +701,8 @@ textarea {
     width: 640px;
   }
 
-  .app-main {
-    width: 100%;
-  }
-
   .Myworks {
     position: relative;
-    
-  }
-
-  .grid-container {
-    
-    
   }
 
   .title {
@@ -743,7 +715,7 @@ textarea {
     color: #1c1a19;
     width: 315px;
     height: 52px;
-    font-family: 'Crete Round';
+    font-family: "Crete Round", serif;
     font-style: normal;
     font-weight: 400;
     font-size: 40px;
@@ -752,7 +724,7 @@ textarea {
   }
 
   .line-tit {
-    width: 600px; 
+    width: 600px;
   }
 
   .grid-container2 {
@@ -786,7 +758,7 @@ textarea {
   .title1 > h3 {
     width: 448px;
     height: 48px;
-    font-family: 'Crete Round';
+    font-family: "Crete Round", serif;
     font-style: normal;
     font-weight: 400;
     font-size: 40px;
@@ -819,7 +791,7 @@ textarea {
     padding-left: 30px;
     order: 3;
   }
-  
+
   .project-2,
   .project-3,
   .project-4 {
@@ -1025,8 +997,8 @@ textarea {
   .aboutme--h > h2 {
     width: 566px;
     height: 78px;
-    color:#ff6b00;
-    font-family: 'Crete Round';
+    color: #ff6b00;
+    font-family: "Crete Round", serif;
     font-style: normal;
     font-weight: 400;
     font-size: 72px;
@@ -1036,15 +1008,14 @@ textarea {
   .aboutme--1 > p {
     width: 566px;
     height: 148px;
-    color: #F4F5F7;
-    font-family: 'Inter';
+    color: #f4f5f7;
+    font-family: "Inter", serif;
     font-style: normal;
     font-weight: 400;
     font-size: 20px;
     line-height: 32px;
   }
 
-  
   .container2 {
     display: flex;
     flex-direction: row;
@@ -1054,7 +1025,6 @@ textarea {
     align-items: baseline;
   }
 
-  
   .container2 > ul {
     list-style: none;
     color: #fff;
@@ -1068,7 +1038,7 @@ textarea {
   .hobby {
     width: 455px;
     height: 256px;
-    font-family: 'Inter';
+    font-family: "Inter", serif;
     font-style: normal;
     font-weight: 700;
     font-size: 40px;
@@ -1174,7 +1144,6 @@ textarea {
   footer {
     margin-top: 0;
     margin-bottom: 5px;
+    width: 100%;
   }
-
- 
 }
