@@ -2,183 +2,157 @@
 @import url("https://fonts.googleapis.com/css2?family=Crete+Round&family=Inter&family=Roboto:wght@700&family=Space+Mono&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Crete+Round&family=Inter:wght@400;500;700&family=Poppins&family=Roboto:wght@700&family=Space+Mono&display=swap");
 
-* {
-  box-sizing: border-box;
+body {
+  margin: 0;
+  
 }
 
-section {
-  width: 365px;
-}
-
-.app-bars {
-  background: #3c3a39;
-  width: 365px;
-}
-
-.status-bar1 {
-  width: 50px;
-  height: 14px;
-  padding-left: 10px;
-  padding-right: 10px;
-  color: #fff;
-}
-
-.status-bar2 {
-  width: 70px;
-  height: 21px;
+.topnav {
+  width: 375px;
+  height: 92px;
   display: flex;
-  flex-direction: row;
-  gap: 0.5rem;
-  justify-content: space-around;
-  padding: 1px;
-}
-
-.time {
-  font-size: 40px;
+  flex-direction: column;
+  background-color: #3c3a39;
+  color: #fff;
 }
 
 .app-bar1 {
-  width: 351px;
-  height: 40px;
+  width: 375px;
+  height: 44px;
   display: flex;
   flex-direction: row;
   justify-content: space-between;
-  padding-top: 6px;
-  padding-left: 21px;
-  padding-right: 10px;
 }
-
-.status-group1 {
-  width: 15px;
-  height: 9px;
+.time {
+ margin-top: 0.9em;
+ margin-left: 1.5em;
 }
-
-.status-group2 {
-  width: 11px;
-  height: 9px;
-}
-
-.status-group3 {
-  width: 20px;
-  height: 9px;
+.subnav {
+  display: flex;
+  flex-direction: row;
+  gap: 0.5em;
+  margin-right: 0.5em;
 }
 
 .app-bar2 {
-  width: 351px;
-  height: 38px;
   display: flex;
   flex-direction: row;
   justify-content: space-between;
-  padding-top: 7px;
-  padding-left: 30px;
-  padding-right: 27px;
+  margin-top: 0.3em;
+}
+.ham {
+  background-image:url(./desktop-version/pngfiles/menu.png);
+  width: 18px;
+  height: 12px;
+  background-repeat: no-repeat;
+  background-size: cover;
+  margin-right: 2.3em;
+  margin-top: 0.4em;
 }
 
-.status-bar3 {
-  width: 72px;
-  height: 20px;
-  font-size: 17px;
-  color: #fff;
+.logoname {
+  font-family: 'Roboto';
+  font-size: 18px;
+  font-weight: 700;
+  line-height: 24px;
+  letter-spacing: 0em;
+  text-align: center;
+  padding-left: 1em;
 }
 
-.status-bar4 {
-  width: 22px;
-  height: 13px;
-}
-
-time {
-  font-size: 15px;
-}
-
-.headline-- {
+.app-main {
+  width: 375px;
   background: #1c1a19;
-  width: 365px;
-  height: 590px;
-  padding-left: 20px;
-  padding-right: 20px;
-  padding-top: 100px;
-  display: flex;
-  flex-direction: column;
-  gap: 20px;
   position: relative;
 }
 
-.Groupimg {
-  position: absolute;
-  top: 50%;
-  right: -6%;
-  bottom: 12%;
-  left: 63%;
+.whoiam1{
+  display: none;
 }
 
-.headline--1 {
+.headline-- {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  margin-left: 1em;
+  padding-top: 3em;
+}
+
+.Groupimg {
+  background-image: url(./pngfiles/bkgrn.png);
+  background-repeat: no-repeat;
+  background-size: contain;
+  position: absolute;
+  top: 40%;
+  bottom: 0;
+  left: 50%;
+  right: 30%;
+  width: 50%;
+  height: 70%;
+}
+
+.headline--1 > .heading1 {
+  font-size: 56px;
+  font-weight: 400;
   width: 323px;
   height: 85px;
   color: #ff6b00;
   font-family: "Crete Round", serif;
   letter-spacing: 0.37px;
-  line-height: 43px;
+  line-height: 64px;
+  
 }
 
-.heading1 {
-  font-size: 30px;
-  font-weight: 400;
-}
-
-.headline--2 {
+.headline--2 > h4 {
   width: 323px;
-  height: 35px;
   line-height: 5px;
   font-style: normal;
   color: #fff;
   font-family: "Roboto", sans-serif;
-}
-
-.heading2 {
   font-size: 24px;
+  
 }
 
-.headline--3 {
+.headline--3 > p {
   width: 323px;
   height: 115px;
   font-size: 15px;
   font-style: normal;
   line-height: 24px;
   color: #fff;
+  font-family: 'Poppins';
+  
 }
 
-.headline--4 > ul {
-  width: 200px;
-  height: 20px;
-  margin-left: 14px;
+.headline--4{
+  margin-bottom: 7em;
   display: flex;
   flex-direction: row;
-  justify-content: space-evenly;
+  gap: 1em;  
 }
 
 li {
   list-style: none;
 }
 
-.menu,
-.Myworks {
-  margin-top: 4rem;
-  margin-left: 1rem;
-  margin-right: 1rem;
+.Myworks{
+  width: 375px;
+  padding-top: 3em;
 }
-
-.title {
-  width: 315px;
-  height: 83px;
-  color: #1c1a19;
-  line-height: 20px;
-  margin-bottom: 0.5em;
+.grid-container {
+  display: grid;
+  align-items: center;
+  gap: 0.5em;
+  padding-bottom: 6em;
 }
 
 .title > h2 {
   font-size: 40px;
   font-family: "Crete Round", serif;
   font-weight: 400;
+  width: 315px;
+  color: #1c1a19;
+  line-height: 20px;
 }
 
 .line-tit {
@@ -188,28 +162,25 @@ li {
 }
 
 .logo-main {
-  width: 337px;
+  width: 327px;
   height: 230px;
-  background-size: cover;
-  padding-top: 50px;
-  margin-bottom: 2.5rem;
-  padding-right: 2rem;
   position: relative;
-  background-image: url(/desktop-version/pngfiles/Img\ Placeholder.png);
+  background-image: url(./desktop-version/pngfiles/Img\ Placeholder.png);
   background-repeat: no-repeat;
-}
-
-.grid-container {
-  display: grid;
-  row-gap: 0.5em;
-  align-content: center;
+  margin: 1em;
 }
 
 .posts {
-  margin-top: 2rem;
   display: flex;
   flex-direction: column;
   padding-right: 1.5rem;
+  padding-left: 0.5rem;
+}
+
+.title1{
+  width: 327px;
+  height: 36px;
+  margin-bottom: 2.5em;
 }
 
 .title1 > h3 {
@@ -222,6 +193,10 @@ li {
 }
 
 .para {
+  width: 327px;
+  height: 147px;
+}
+.para > p{
   font-size: 16px;
   font-family: "Inter", sans-serif;
   font-weight: 400;
@@ -286,8 +261,9 @@ button {
   font-family: "Inter", sans-serif;
   font-size: 15px;
   font-weight: 700;
-  background: #dbd8d7;
+  background: #ff6b00;
   border-style: hidden;
+  
 }
 
 .click {
@@ -314,12 +290,13 @@ button:focus {
   height: 375px;
   margin: 12px;
   background-color: linear-gradient(rgba(38, 38, 38, 0) 0.75%);
-  background-image: url(pngfiles/Img\ Placehold.png);
+  background-image: url(./pngfiles/Img\ Placehold.png);
   position: relative;
   display: flex;
   flex-direction: column;
-  justify-content: center;
-  gap: 24px;
+  align-items: center;
+  border: solid;
+  
 }
 
 .project-2,
@@ -329,19 +306,20 @@ button:focus {
   height: 375px;
   margin: 12px;
   background-color: linear-gradient(rgba(38, 38, 38, 0) 0.75%);
-  background-image: url(pngfiles/Img\ Placehold.png);
+  background-image: url(./pngfiles/Img\ Placehold.png);
   position: relative;
   display: flex;
   flex-direction: column;
   justify-content: center;
-  gap: 24px;
+ 
+ 
 }
 
 .subtitl {
   width: 290px;
   height: 79px;
   line-height: 44px;
-  padding: 13px;
+  margin: 0.5em;
 }
 
 .subtitl > h2 {
@@ -357,6 +335,7 @@ button:focus {
   height: 85px;
   padding-left: 13px;
   padding-top: 5px;
+  margin: 0.5em;
 }
 
 .sub2 > p {
@@ -383,16 +362,19 @@ button:focus {
 .lang1-pro {
   width: 49px;
   height: 40px;
+  
 }
 
 .lang2-pro {
   width: 56px;
   height: 40px;
+  
 }
 
 .lang3-pro {
   width: 95px;
   height: 40px;
+  
 }
 
 .lang-pro {
@@ -401,6 +383,7 @@ button:focus {
   align-items: center;
   padding: 12px 14px;
   gap: 10px;
+  
 }
 
 .aboutme {
@@ -409,6 +392,7 @@ button:focus {
   position: relative;
   padding-top: 20px;
   padding-bottom: 5rem;
+  width: 375px;
 }
 
 .aboutme-- {
@@ -418,7 +402,7 @@ button:focus {
 }
 
 .illust {
-  background: url(/pngfiles/Groupe.png);
+  background: url(./pngfiles/Groupe.png);
   background-repeat: no-repeat;
   position: absolute;
   top: 20%;
@@ -501,6 +485,7 @@ button:focus {
 
 .contact-feature {
   position: relative;
+  width: 375px;
 }
 
 .hobby {
@@ -557,20 +542,20 @@ textarea {
 }
 
 .footerline {
-  height: 1px;
+  height: 0;
   left: 0;
   right: 0;
-  width: 361.65px;
-  margin-top: 6em;
+  width: 375px;
+  margin-top: 5em;
 }
 
 .contact-links > ul {
   display: flex;
   flex-direction: row;
-  gap: 17px;
-  justify-content: center;
-  margin-left: 2em;
-  margin-top: 0;
+  gap: 1em;
+  justify-content: baseline;
+  margin-left: 2.5em;
+  
 }
 
 .last-line {
@@ -579,9 +564,9 @@ textarea {
 
 .last-line > hr {
   width: 100px;
-  height: 5px;
+  height: 1px;
   position: absolute;
-  left: 10em;
+  left: 7em;
   background: #1c1a19;
   border: solid;
   border-radius: 3px;
@@ -604,11 +589,9 @@ textarea {
 }
 
 @media screen and (min-width: 780px) {
-  section {
-    width: 100%;
-  }
+  
 
-  .app-bars {
+  .topnav {
     background: #3c3a39;
     width: 100%;
   }
